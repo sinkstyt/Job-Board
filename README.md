@@ -44,7 +44,7 @@ For those completely new to C# and dotnet, please see these detailed instruction
 * Feel free to edit this project or start a pull request
 
 ### License
-* Copyright 2021 :copyright:  Cat Denton, Shannon Lee, $amp; Tyler Sinks
+* Copyright 2021 :copyright:  Cat Denton, Shannon Lee, &amp; Tyler Sinks
 * [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/saoud/csharp-TDD-template/blob/main/LICENSE)
 
 ### Contact
