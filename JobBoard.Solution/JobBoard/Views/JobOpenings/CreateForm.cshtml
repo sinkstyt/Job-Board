@@ -1,18 +1,31 @@
-<form action="/jobopenings" method="post">
-  <label for="title">Enter the title for the job posting:</label>
-  <input id="title" name="title" type="text">
-  <label for="description">Describe the job:</label>
-  <input id="description" name="description" type="text">
-  <label for="name">Enter your name:</label>
-  <input id="name" name="name" type="text">
-  <label for="email">Enter your e-mail address:</label>
-  <input id="email" name="email" type="text">
-  <label for="phone">Enter your phone number:</label>
-  <input id="phone" name="phone" type="text">
-  <button type="submit">Submit</button>
-</form>
-<h2>Jump around:</h2>
-<ul class="other-links">
-  <li><a href="/">Go Home</a></li>
-  <li><a href="/jobopenings/">See what's already posted</a></li>
-</ul>
+<head>
+  <meta charset='utf-8'>
+  <title>Post your job opening</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body class="col-sm-10">
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Post a new job opening</h1>
+    </div>
+    <form action="/jobopenings" method="post">
+      <label for="title" class="form-label">Enter the title for the job posting:</label>
+      <input id="title" name="title" type="text" class="form-control">
+      <label for="description" class="form-label">Describe the job:</label>
+      <textarea class="form-control" id="description" name="description"  rows="3"></textarea>
+      <label for="name" class="form-label">Enter your name:</label>
+      <input id="name" name="name" type="text" class="form-control">
+      <label for="email" class="form-label">Enter your e-mail address:</label>
+      <input id="email" name="email" type="email" class="form-control" placeholder="name@example.com">
+      <label for="phone" class="form-label">Enter your phone number:</label>
+      <input id="phone" name="phone" type="text" class="form-control"><br>
+      <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+    <h2>Jump around:</h2>
+    <ul class="other-links">
+      <li><a href="/">Go Home</a></li>
+      <li><a href="/jobopenings/">See what's already posted</a></li>
+    </ul>
+  </div>
+</body>
